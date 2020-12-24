@@ -42,16 +42,17 @@ norml = "\033[0m"
 
 
 
-def banner ():
+def logo ():
 	os.system ("clear")
 	print (" \n ")
         print (c+fore+"  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄")
         print (c+fore+"  ████▌▄▌▄▐▐▌█████")
         print (c+fore+"  ████▌▄▌▄▐▐▌▀████")
         print (c+fore+"  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀")
-        print (c+fore+"       \033[1;47m   \033[1;34mCyber \033[1;30m~~\033[1;35m|\033[1;34m••\033[1;35m|\033[1;30m~~ \033[1;34mMuslim   \033[1;0m     ")
-
-
+        print (c+fore+"  __________________________________")
+        print (c+fore+" | \033[1;36mCooded By \033[1;34m :----->>   \033[1;31m cyber   \033[1;34m|")
+        print (c+fore+" | \033[1;36mYoutube   \033[1;34m :----->>   \033[1;31m CyberMuslim \033[1;34m|")
+        print (c+fore+" |__________________________________|")
 
 
 
