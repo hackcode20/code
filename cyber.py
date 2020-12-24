@@ -41,18 +41,23 @@ cyan = "\033[1;36m"
 norml = "\033[0m"
 
 
-
-def logo ():
+def banner ():
 	os.system ("clear")
-	print (" \n ")
-        print (c+fore+"  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄")
-        print (c+fore+"  ████▌▄▌▄▐▐▌█████")
-        print (c+fore+"  ████▌▄▌▄▐▐▌▀████")
-        print (c+fore+"  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀")
-        print (c+fore+"  __________________________________")
-        print (c+fore+" | \033[1;36mCooded By \033[1;34m :----->>   \033[1;31m cyber   \033[1;34m|")
-        print (c+fore+" | \033[1;36mYoutube   \033[1;34m :----->>   \033[1;31m CyberMuslim \033[1;34m|")
-        print (c+fore+" |__________________________________|")
+        print (" \n ")
+	print (c+fore+"     o        o       o            o")
+	print (c+fore+"      o      o          o        o")
+	print (c+fore+"       0 ■■ 0             0 ■■ 0")
+	print (c+fore+"       ■■■■■■             ■■■■■■")
+	print (c+fore+"      ■■"+fore1+"▣"+fore+"■■"+fore1+"▣"+fore+"■■           ■■"+fore2+"◉"+fore+"■■"+fore2+"◉"+fore+"■■")
+	print (c+fore+"     ■■■■■■■■■■         ■■■■■■■■■■")
+	print (c+fore+"  __ __________ __   __ __________ __")
+	print (c+fore+"  ■■ ■■■■■■■■■■ ■■   ■■ ■■■■■■■■■■ ■■")
+	print (c+fore+"  ■■ ■■■■■■■■■■  ■■ ■■  ■■■■■■■■■■ ■■")
+	print (c+fore+"  ■■ ■■■■■■■■■■   ■■■   ■■■■■■■■■■ ■■")
+	print (c+fore+"     ■■■■■■■■■■         ■■■■■■■■■■")
+	print (c+fore+"       ■■  ■■             ■■  ■■")
+	print (c+fore+"       ■■  ■■             ■■  ■■")
+	print (c+fore+"       \033[1;36m   \033[1;34mCyber \033[1;30m \033[1;34mmuslim     ")
 
 
 
@@ -94,7 +99,7 @@ def chose_opt ():
 			exit (0)
 
 	else:
-		pld_to_gen = ["plds.Android ()", "plds.Windows ()", "plds.Linux()", "plds.Mac ()", "plds.Python ()", "plds.Bash ()", "plds.Perl ()", "exite ()"]
+		pld_to_gen = ["plds.Android ()", "plds.Windows ()", "exite ()"]
 		exec (pld_to_gen[pld_type - 1])
 
 
