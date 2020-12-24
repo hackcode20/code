@@ -1,8 +1,8 @@
 
 #!/usr/bin/python3 env
 
-# Cooded By : Hamza.H
-# Youtube   : https://youtube.com/c/T4Termux
+# Cooded By : cyber
+# Youtube   : https://youtu.be/S2T1FhDXP_0
 # Github    : https://github.com/cybermuslim
 
 
